@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css"/>
+    <!-- <link rel="stylesheet" href="./css/style.css"/> -->
+    <link rel="stylesheet" href="./css/login.css"/>
+    <link rel="stylesheet" href="./css/signup.css"/>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    <link rel="icon" href="./img/face.png">
+    <meta charset="utf-8"/>
+    <title>판다마켓</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="navi">
+        <a href="./" class="logo">
+          <img src="./img/logo.png">
+        </a>
+      </div>
+    </header>
+    <main>
+      <form>
+        <div class="signupBox">
+          <div class="signup">
+            <div class="inputSignup">
+              <div>
+                <label for="email">이메일</label>
+                <input type="email" id="email" name="email" placeholder="이메일을 입력해주세요"/>
+              </div>
+              <div>
+                <label for="nickname">닉네임</label>
+                <input type="text" id="nickname" name="nickname" placeholder="닉네임을 입력해주세요"/>
+              </div>
+              <div>
+                <label for="pw">비밀번호</label>
+                <input type="password" id="pw" name="pw" placeholder="비밀번호를 입력해주세요"/>
+              </div>
+              <div>
+                <label for="pwCheck">비밀번호</label>
+                <input type="password" id="pwCheck" name="pwCheck" placeholder="비밀번호를 다시 한 번 입력해주세요"/>
+              </div>
+            </div>
+            <button class="signup_btn">
+              회원가입
+            </button>
+          </div>
+          <div class="easyLogin">
+            <div>
+              간편 로그인하기
+            </div>
+            <div class="gotoEasyLogin">
+              <a href="https://www.google.com/%E2%80%9D" target="_blank"><img src="./img/ic_google.png"> </a>
+              <a href="https://www.kakaocorp.com/page/%E2%80%9D" target="_blank"><img src="./img/ic_kakao.png"> </a>
+            </div>
+          </div>
+          <div class="gotoLogin">
+            이미 회원이신가요?
+            <a href="./login.html">로그인</a>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
