@@ -1,4 +1,4 @@
-@import "./css/reset.css";
+@import './reset.css';
 
 /* 1vmin = 9.19px */
 
@@ -42,7 +42,6 @@ button {
 }
 
 .logo {
-  /* margin-left: 10.4167vw; */
   margin-left: 200px;
 }
 
@@ -54,13 +53,11 @@ button {
 .menu {
   display: flex;
   justify-content: space-between;
-  /* width: 11.3542vw; */
   width: 218px;
   margin-left: 1.6667vw;
 }
 
 .menu > a {
-  /* width: 5.677vw; */
   width: 109px;
   color: #4B5563;
   font-size: 1.8rem;
@@ -69,23 +66,17 @@ button {
 }
 
 .loginHome_btn {
-  /* margin-right: 10.4167vw; */
   margin-right: 200px;
 }
 
-/* 9.19 = 1vmin */
-
 .loginHome_btn button {
   height: 4.57vh;
-  width: 4.5833vw;
-  /* height: 42px;
-  width: 88px; */
+  /* width: 4.5833vw; */
+  width: 88px;
   background-color: #3692FF;
   color: #ffffff;
   font-size: 1.74vmin;
-  /* font-size: 16px; */
   font-weight: 600;
-  padding: 1.306vh 1.1979vw;
   border-radius: 0.8vmin;
   border: none;
   white-space:nowrap;
@@ -107,7 +98,7 @@ main{
 }
 
 .contents_t {
-  width: 69.6354vw;
+  max-width: 1337px;
   height: 100%;
   margin: 0 auto;
   display: flex;
@@ -128,14 +119,11 @@ main{
 .itemhome_btn button {
   background-color: #3692FF;
   width: 18.594vw;
+  max-width: 357px;
   height: 6.094vh;
-  /* width: 357px;
-  height: 56px; */
   border-radius: 4.35vmin;
-  padding: 1.741vh 6.458vw;
   border: none;
   font-size: 2.06vmin;
-  /* font-size: 20px; */
   font-weight: 600;
   color: #FFFFFF;
   white-space:nowrap;
@@ -143,7 +131,8 @@ main{
 }
 
 .contents_t .right {
-  width: 51.875vw;
+  width: 52.3384vw;
+  max-width: 996px;
   height: 48.64vh;
   margin-top: 10.12vh;
 }
@@ -310,6 +299,7 @@ footer {
 
   .contents_t {
     width: 100%;
+    max-width: 100%;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -318,8 +308,6 @@ footer {
   }
 
   .contents_t .left {
-    /* width: 357px;
-    height: 162px; */
     width: 95.2vw;
     height: 24.288vh;
     display: flex;
@@ -333,10 +321,6 @@ footer {
     span{display: block;white-space:nowrap;}
     text-align: center;
   }
-
-  /* .sen p{
-    margin: 0px;
-  } */
 
   .itemhome_btn {
     position: absolute;
@@ -519,7 +503,7 @@ footer {
 }
 
 /* 태블릿 */
-@media all and (min-width:768px) and (max-width:1199px){ 
+@media all and (min-width:767.1px) and (max-width:1199px){ 
   .logo_img {
     display: block;
   }
@@ -751,7 +735,7 @@ footer {
 }
 
 /* PC */
-@media all and (min-width:1199.01px){ 
+@media all and (min-width:1199.1px){ 
   .logo_img {
     display: block;
   }
@@ -785,27 +769,4 @@ footer {
     p {white-space:nowrap;}
     span{display: block;white-space:nowrap;}
   }
-}
-
-/* 1vmin = 6.912px */
-/* PC 세로화면 겹침현상 해결*/
-@media all and (max-height:690px){ 
-  .card .st {
-    font-size: 2.6vmin;
-  }
-/*   
-  .card .nd {
-    height: 12.187vh;
-    font-size: 4.0rem;
-    font-weight: 700;
-    letter-spacing: 2%;
-  }
-  
-  .card .rd {
-    height: 6.311vh;
-    margin-top: 2.612vh;
-    font-size: 2.4rem;
-    font-weight: 500;
-    letter-spacing: 8%;
-  } */
 }
